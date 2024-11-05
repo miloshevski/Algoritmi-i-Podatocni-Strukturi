@@ -37,14 +37,7 @@ public class KnapsackZeroOne {
             jobs.add(new Job(t, p));
         }
         int m=sc.nextInt();
-        // int [][] arr= buildMatrix(jobs,m);
-        // for (int i = 0; i <= n; i++) {
-        //     for (int j = 0; j <= m; j++) {
-        //         System.out.printf("%4d", arr[i][j]); // Change the width (e.g., 4) as needed
-        //     }
-        //     System.out.println();
-        // }
         int v=buildMatrix(jobs, m);
-        System.out.println("Max value is: "+ v);;
+        System.out.println(v);;
     }
 }
