@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class Vozovi {
@@ -14,7 +13,7 @@ public class Vozovi {
             pristiganje.add(sc.nextInt());
             poagjanje.add(sc.nextInt());
         }
-
+        
         Collections.sort(pristiganje);
         Collections.sort(poagjanje);
 
