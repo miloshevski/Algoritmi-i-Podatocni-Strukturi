@@ -31,7 +31,7 @@ public class Jobs {
                 return Double.compare(j2.ratio,j1.ratio);
             }
         });
-        int casovi=40;
+        int casovi=50;
         int zarabotka=0;
         for(int i=0;i<n;i++){
             if(casovi==0){
