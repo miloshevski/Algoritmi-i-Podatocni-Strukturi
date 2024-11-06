@@ -213,10 +213,10 @@ public class ShiftElements {
         for(int i=0;i<n;i++){
             list.insertLast(sc.nextInt());
         }
-        int k=sc.nextInt();
         System.out.println(list.toString());
         for(int i=0;i<10;i++){
             shift(list, i);
         }
+        sc.close();
     }
 }

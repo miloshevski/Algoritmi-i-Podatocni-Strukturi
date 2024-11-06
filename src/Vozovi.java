@@ -32,5 +32,6 @@ public class Vozovi {
         }
 
         System.out.println(maxx);
+        sc.close();
     }
 }

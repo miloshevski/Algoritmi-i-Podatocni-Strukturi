@@ -39,5 +39,6 @@ public class VozoviV2 {
         }
 
         System.out.println(overlaps);
+        sc.close();
     }
 }

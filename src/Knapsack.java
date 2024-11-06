@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Scanner;
 
 public class Knapsack {
@@ -54,5 +52,6 @@ public class Knapsack {
             // Print as double
             System.out.printf("%s%n", zarabotka);
         }
+        sc.close();
     }
 }

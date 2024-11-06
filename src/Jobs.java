@@ -46,5 +46,6 @@ public class Jobs {
             }
         }
         System.out.println(zarabotka);
+        sc.close();
     }
 }

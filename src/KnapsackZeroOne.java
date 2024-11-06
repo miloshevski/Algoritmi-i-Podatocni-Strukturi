@@ -38,6 +38,7 @@ public class KnapsackZeroOne {
         }
         int m=sc.nextInt();
         int v=buildMatrix(jobs, m);
-        System.out.println(v);;
+        System.out.println(v);
+        sc.close();
     }
 }

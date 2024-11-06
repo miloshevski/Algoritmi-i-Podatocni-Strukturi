@@ -41,5 +41,6 @@ public class Meetings{
             }
         }
         System.out.println(max);
+        sc.close();
     }
 }
