@@ -30,7 +30,6 @@ public class KnapsackZeroOne {
     }
     public static LinkedList<Integer> traverse(int [][] arr, int n, int m){
         LinkedList<Integer> result = new LinkedList<>();
-        int current;
         for(int i=n;i>=0;i--){
             for(int j=m;j>=0;j--){
                 System.out.print(arr[i][j] + " ");

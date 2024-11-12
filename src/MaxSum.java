@@ -66,6 +66,7 @@ public class MaxSum {
         for(Pair p :indeksi){
             p.print();
         }
+        sc.close();
     }
     
 }

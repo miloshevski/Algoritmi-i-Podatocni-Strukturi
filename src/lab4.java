@@ -34,5 +34,6 @@ public class lab4 {
         }else{
             System.out.println(index);
         }
+        sc.close();
     }
 }

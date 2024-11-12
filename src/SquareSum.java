@@ -2,7 +2,6 @@
 //za daden broj x da se najde najmal broj na kvadrati koi so odzemanje od x ke dadat 0
 //ili so drugi zborovi najbal broj na broevi koi ke dadat suma x
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SquareSum {
@@ -10,7 +9,6 @@ public class SquareSum {
     public static int [] findBestSum(int [] kvadrati, int[] dp,int n,int size) {
 
         dp[0]=0;
-        ArrayList<Integer> used= new ArrayList<>();
         for(int i=0;i<=n;i++){
             for(int j=size-1;j>=0;j--){
                 if(i-kvadrati[j]>=0){
@@ -36,5 +34,6 @@ public class SquareSum {
         }
         dp = findBestSum(kvadrati, dp, n, size);
         System.out.println(dp[n]);
+        sc.close();
     }
 }

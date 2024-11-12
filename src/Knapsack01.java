@@ -51,5 +51,6 @@ public class Knapsack01 {
         int [][] dp=build(p, w, m);
         ArrayList<Integer>objects = backTrack(dp, n, m,w);
         System.out.println(objects);
+        sc.close();
     }
 }

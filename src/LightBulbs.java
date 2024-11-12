@@ -37,5 +37,6 @@ public class LightBulbs {
             }
         }
         System.out.println(c);
+        sc.close();
     }   
 }

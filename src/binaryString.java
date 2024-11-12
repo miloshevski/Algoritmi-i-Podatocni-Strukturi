@@ -38,5 +38,6 @@ public class binaryString {
         sc.nextLine();
         String s=sc.nextLine();
         System.out.println(subStr(s, n));
+        sc.close();
     }
 }
