@@ -32,7 +32,7 @@ public class Kusur {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int [] coins={1,2,5,10};
+        int [] coins={1,4,9,16,25,36,49,64};
         while(true){
             int s=sc.nextInt();
             if(s<0){
