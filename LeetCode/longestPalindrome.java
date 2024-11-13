@@ -10,13 +10,12 @@ public class longestPalindrome {
     }
     
 
-    public static String longestPalindrome(String s) {
+    public static String longestPalindrom(String s) {
         int n=s.length();
         String res="";
         String res2="";
         String tmp="";
         String global="";
-        int maks=0;
         for(int i=0;i<n;i++){
             res=helper(s,i,i);
             res2=helper(s, i, i+1);
@@ -34,7 +33,7 @@ public class longestPalindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s=sc.nextLine();
-        System.out.println(longestPalindrome(s));
+        System.out.println(longestPalindrom(s));
         sc.close();
     }
 }

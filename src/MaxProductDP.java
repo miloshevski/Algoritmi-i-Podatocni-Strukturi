@@ -8,8 +8,6 @@ public class MaxProductDP {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
-        // Array to store the maximum product ending at each index
         int[] dp = new int[n];
         dp[0] = arr[0];
         int globalMax = dp[0];
@@ -25,5 +23,6 @@ public class MaxProductDP {
         }
 
         System.out.println(globalMax);
+        sc.close();
     }
 }
