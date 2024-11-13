@@ -35,5 +35,6 @@ public class longestPalindrome {
         Scanner sc = new Scanner(System.in);
         String s=sc.nextLine();
         System.out.println(longestPalindrome(s));
+        sc.close();
     }
 }

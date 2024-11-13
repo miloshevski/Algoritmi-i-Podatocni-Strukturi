@@ -31,5 +31,6 @@ public class MaxProduct {
             globalMaks=Math.max(maks, globalMaks);
         }
         System.out.println(globalMaks);
+        sc.close();
     }
 }
