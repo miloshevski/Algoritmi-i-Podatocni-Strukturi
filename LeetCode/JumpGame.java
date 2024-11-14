@@ -30,5 +30,6 @@ public class JumpGame {
             arr[i]=sc.nextInt();
         }
         System.out.println(jump(arr));
+        sc.close();
     }
 }
