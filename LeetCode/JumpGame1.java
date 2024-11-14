@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class JumpGame1 {
     public static boolean canJump(int[] nums) {
         int n=nums.length;
-        int []arr=new int[n];
         int index=0;
         for(int i=0;i<n;i++){
             if(i>index){
@@ -24,6 +23,6 @@ public class JumpGame1 {
             arr[i]=sc.nextInt();
         }
         System.out.println(canJump(arr) ? "true" : "false");
-
+        sc.close();
     }
 }
