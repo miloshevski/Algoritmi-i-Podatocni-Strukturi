@@ -1,5 +1,5 @@
 package ZadaciOdKurs;
-import java.util.Scanner;
+
 import java.util.Stack;
 public class Stek {
     public static boolean checkParathesis(String s){
@@ -22,8 +22,7 @@ public class Stek {
         return stack.isEmpty();
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        Stack<Integer>stack=new Stack<>();
+
         String s="(2+3)+{2*(3+4";
         if(checkParathesis(s)){
             System.out.println("valid");

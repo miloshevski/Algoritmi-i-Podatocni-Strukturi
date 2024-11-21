@@ -1,4 +1,4 @@
-import java.util.List;
+
 import java.util.Scanner;
 ///ZA DADENA LISTA 1->2->3 DA SE PREVRTI VO 3->2->1
 public class ReverseLinkedList {

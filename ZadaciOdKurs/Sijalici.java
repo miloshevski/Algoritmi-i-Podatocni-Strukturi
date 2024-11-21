@@ -32,5 +32,6 @@ public class Sijalici {
             }
         }
         System.out.println(c);
+        sc.close();
     }
 }

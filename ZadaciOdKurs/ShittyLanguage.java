@@ -12,7 +12,7 @@ public class ShittyLanguage{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Stack<String> stack =new Stack<>();
-        Stack<String>tmp=new Stack<>();
+
         String input;
         boolean flag=false;
         while (true) {
@@ -37,5 +37,6 @@ public class ShittyLanguage{
         }else{
             System.out.println("Invalid");
         }
+        sc.close();
     }
 }

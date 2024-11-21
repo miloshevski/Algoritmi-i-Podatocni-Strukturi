@@ -1,9 +1,8 @@
 package ZadaciOdKurs;
 
-import java.util.Scanner;
+
 import java.util.Stack;
-import java.util.LinkedList;
-import java.util.Queue;
+
 public class ApsolutnaPateka {
     public static int reverseNumer(int n){
         int num=0;
@@ -85,7 +84,7 @@ public class ApsolutnaPateka {
         
     }
     public static void main(String[] args) {
-        String pateka=" /abc/cde/xyz/.1/asdf/a1.b2/newdir/.2/a/";
+        String pateka=" /abc/cde/xyz/.1/asdf//a1.b2/newdir/.2/a/";
         System.out.println(relativePath(pateka));
     }
 }

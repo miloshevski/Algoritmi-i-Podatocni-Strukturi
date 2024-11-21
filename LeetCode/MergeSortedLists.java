@@ -10,7 +10,7 @@
 public class MergeSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode h1=list1;
-        ListNode h2=list2;
+       
         ListNode it1=h1;
         ListNode it2=list2;
         ListNode list=new ListNode(0);

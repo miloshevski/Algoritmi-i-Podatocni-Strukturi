@@ -2,13 +2,13 @@ package ZadaciOdKurs;
 
 import java.util.Scanner;
 
-import ZadaciOdKurs.DLL;
+
 
 public class BubbleSortDLL {
     public static void sort(DLL<Integer> lista,int n){
         DLLNode<Integer> left = lista.getFirst();
         DLLNode<Integer>right = left.succ;
-        boolean swapped=false;
+
         for(int i=0;i<n-1;i++){
             for(int j=0;j<n-i-1;j++){
                 if(left.element>right.element){
@@ -32,5 +32,6 @@ public class BubbleSortDLL {
     }
     sort(lista,n);
     System.out.println(lista.toString());
+    sc.close();
     }
 }
