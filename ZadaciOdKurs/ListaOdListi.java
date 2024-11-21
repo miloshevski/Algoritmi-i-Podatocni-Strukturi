@@ -171,7 +171,7 @@
 			}
 			in.close();
 			System.out.println(findMagicNumber(list));
-			
+	
 		}
 
 	}
